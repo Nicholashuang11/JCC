@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+} 
+body{
+    font-family: 'Kaisei Tokumin',serif;
+    color:white;
+    
+}
+nav{
+    background-color:#B8A395 ;
+    position: fixed;
+    font-family: 'Kaisei Tokumin',serif;
+    top:0;
+    left:0;
+    right: 0;
+    height: 160px;
+    width: auto;
+}
+
+nav .logo{
+    padding-left: 30px;
+    display: flex;
+    float: left;
+    color:white;
+    font-size:64px ;
+    font-family: 'Kaisei Tokumin',serif;
+    align-items: center;
+}
+nav .links {
+    display:flex;
+    flex:1;
+    flex-direction: row;
+    float: right;
+    padding:0;
+    margin:0;
+    width :30%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .links li{
+    list-style: none;
+}
+nav .links a{
+    display: block;
+    padding: 1em;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.background{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/background\ website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    z-index: -1;
+}
+
+
+.footer{
+    margin-top: 150px;
+    width:auto;
+    height:200px;
+    display:flex;
+    flex:2;
+    background-color: #B8A395;
+}
+.contactus{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    font-size: 30px;
+    padding:20px;
+    padding-bottom: 10px;
+}
+.contactusicon{
+    display:inline-block;
+}
+.jcc{
+    font-size: 80px;
+    align-items: center;
+}
+.aboutusbox{
+    align-items: center;
+}
+.imgjcc{
+
+    margin-top: 400px;
+    width: 1000px;
+    height:300px;
+    display:flex;
+    flex-direction: row;
+    align-items:center ;
+    margin-left: 200px;
+}
+.img{
+    
+    flex:1;
+    width:100%;
+    height: 100%;
+    padding-left: 30px;
+    
+}
+.text{
+    text-align: center;
+}
+.paragraf{
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 30px;
+    width:800px;
+    height: 200px;
+    word-spacing: 5px0;
+}
